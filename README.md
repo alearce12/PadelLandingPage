@@ -1,9 +1,9 @@
-# Landing Page basado en un club de padel.
+# Landing Page based on a paddle club.
 
-**DESCRIPCIÓN:**
+**DESCRIPTION:**
 
-Este proyecto es una landing page para un club de pádel. Fue creado con la finalidad de aplicar mis conocimientos en React y Tailwind. La página presenta los servicios ofrecidos por el club, su ubicación e información de contacto, todo con un diseño atractivo, totalmente responsive y fácil de comprender.
+This project is a landing page for a paddle club. It was created with the purpose of applying my knowledge in React and Tailwind. The website presents the services offered by the club, its location and contact information, all with an attractive design, fully responsive and easy to understand.
 
-**VISTA:**
+**VIEW:**
 
 [![hero-Padel.png](https://i.postimg.cc/W34cCSkZ/hero-Padel.png)](https://postimg.cc/v1CK6rX8)
