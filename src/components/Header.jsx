@@ -19,7 +19,7 @@ function Header() {
             <div className='bg-transparent w-1/3 h-full' onClick={() => setIsActive(!isActive)}></div>
             <div className=' p-5 bg-white h-screen w-2/3 flex justify-center pt-10'>
                 <ul className=' flex flex-col gap-10 w-full'>
-                    <li className='text-black font-semibold hover:text-green-700 w-full border-b-2 text-center p-3 hover:cursor-pointer'><Link to="/" spy={true} smooth={true} offset={50} duration={500} onClick={() => { setIsActive(!isActive) }}>HOME</Link></li>
+                    <li className='text-black font-semibold hover:text-green-700 w-full border-b-2 text-center p-3 hover:cursor-pointer'><Link to="/" spy={true} smooth={true} offset={50} duration={500} onClick={() => { setIsActive(!isActive) }}>INICIO</Link></li>
                     <li className='text-black font-semibold hover:text-green-700 w-full border-b-2 text-center p-3 hover:cursor-pointer'><Link to="services" spy={true} smooth={true} offset={-100} duration={500} onClick={() => { setIsActive(!isActive) }}>SERVICIOS</Link></li>
                     <li className='text-black font-semibold hover:text-green-700 w-full border-b-2 text-center p-3 hover:cursor-pointer'><Link to="ubication" spy={true} smooth={true} offset={-100} duration={500} onClick={() => { setIsActive(!isActive) }}>UBICACION</Link></li>
                     <li className='text-black font-semibold hover:text-green-700 w-full border-b-2 text-center p-3 hover:cursor-pointer'><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={() => { setIsActive(!isActive) }}>CONTACTO</Link></li>
@@ -28,7 +28,7 @@ function Header() {
             </div>
             <div className='mx-auto hidden md:block'>
                 <ul className=' flex gap-10 text-md pr-10'>
-                    <li className='text-black font-semibold hover:text-green-700 hover:cursor-pointer '><Link className='hover:border-b-2 hover:border-b-green-700'to="/" spy={true} smooth={true} offset={50} duration={500}>HOME</Link></li>
+                    <li className='text-black font-semibold hover:text-green-700 hover:cursor-pointer '><Link className='hover:border-b-2 hover:border-b-green-700'to="/" spy={true} smooth={true} offset={50} duration={500}>INICIO</Link></li>
                     <li className='text-black font-semibold hover:text-green-700 hover:cursor-pointer '><Link className='hover:border-b-2 hover:border-b-green-700' to="services" spy={true} smooth={true} offset={-100} duration={500}>SERVICIOS</Link></li>
                     <li className='text-black font-semibold hover:text-green-700 hover:cursor-pointer '><Link className='hover:border-b-2 hover:border-b-green-700' to="ubication" spy={true} smooth={true} offset={-100} duration={500}>UBICACION</Link></li>
                     <li className='text-black font-semibold hover:text-green-700 hover:cursor-pointer '><Link className='hover:border-b-2 hover:border-b-green-700' to="contact" spy={true} smooth={true} offset={-100} duration={500}>CONTACTO</Link></li>
