@@ -8,7 +8,7 @@ import Logo from './Logo'
 function Footer() {
   return (
     <footer>
-      <div className='bg-black h-[300px] p-4 flex justify-between item lg:justify-around'>
+      <div className='bg-black p-4 flex justify-between item lg:justify-around'>
         <div className='flex w-[350px]'>
             <div className='relative text-white '>
               <Logo bgcolor='black'/>
@@ -18,8 +18,8 @@ function Footer() {
               </p>
           </div>
         </div>
-        <div className='w-[400px] pl-8 flex flex-col gap-4 text-sm'>
-          <p className='text-white font-bold '>Redes sociales</p>
+        <div className='w-[400px] pl-8 flex flex-col gap-4 text-xs md-text-md mt-1'>
+          <p className='text-white font-bold mt-[2px] '>Redes sociales</p>
           <div className='text-green-600 flex gap-2 items-center'>
             <BsInstagram size={20} />
             <a href="https://www.instagram.com/larufinapadelclub/" target={'_blank'}>Seguinos en Instagram!</a>
@@ -43,7 +43,7 @@ function Footer() {
         </div>
       </div>
       <div className='bg-green-900 h-[50px] text-sm'>
-        <div className='flex items-center justify-center h-full'>
+        <div className='flex items-center justify-center h-full text-xs md:text-md'>
           &copy;2023 <span className='font-bold ml-1'>La Rufina Padel</span>. Todos los Derechos Reservados.
         </div>
       </div>

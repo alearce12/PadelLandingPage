@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import {motion} from 'framer-motion'
 //images
 import canchas from '../assets/canchas.jpg'
 import belasteguin from '../assets/belasteguin.png'
@@ -13,9 +14,15 @@ function Contact() {
     }
 
   return (
-    <section id='contact' >
+    <section >
+        <span id='contact' className='anchor'></span>
         <div className=' flex bg-white justify-center items-center py-10 '>
-            <form className='bg-white rounded w-[80%] max-w-[532px] xl:max-w-none flex px-2 py-5 shadow-2xl md:py-10' onSubmit={handleSubmit(onSubmit)}>
+            <motion.form
+            initial={{ translateY: 200 }}
+            whileInView={{ translateY: 0 }}
+            transition={{duration: 0.5, ease: 'easeInOut'}}
+            viewport={{once: true}}
+             className='bg-white rounded w-[80%] max-w-[532px] xl:max-w-none flex px-2 py-5 shadow-2xl md:py-10' onSubmit={handleSubmit(onSubmit)}>
                 <div className='w-full flex flex-col justify-center items-center gap-3 max-w-[532px]'>
                     <h2 className='font-bold text-2xl mb-4 text-green-800 xl:text-4xl '>Contáctenos!</h2>
                     <div className='flex flex-col gap-2 w-[90%]'>
@@ -51,7 +58,7 @@ function Contact() {
                 </div>
                 <div style={{backgroundImage:`url(${canchas})`}} className='hidden xl:flex w-full bg-cover bg-center rounded justify-center items-end'>
                 </div>
-            </form>
+            </motion.form>
         </div>
         <img src={belasteguin} alt="" className='h-[250px] mx-auto'/>
     </section>
